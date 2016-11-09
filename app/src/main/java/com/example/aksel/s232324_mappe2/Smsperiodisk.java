@@ -27,6 +27,8 @@ public class Smsperiodisk extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         Calendar cal = Calendar.getInstance();
 
+        //testy
+
         Intent i = new Intent(this, Smservice.class);
         PendingIntent pIntent = PendingIntent.getService(this,0,i,0);
 

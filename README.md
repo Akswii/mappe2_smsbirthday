@@ -1,2 +1,2 @@
 # mappe2_smsbirthday
-Mappe3 fra aplikkasjonsutviklingkurset
+mappe 2, bursdagsapplikasjons som sender melding på bursdagen til personer som er lagt til.

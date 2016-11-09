@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bursdagsmelding</string>
+    <string name="overskrift">Bursdagsmelding</string>
+    <string name="exit">EXIT</string>
+    <string name="fornavn">Fornavn</string>
+    <string name="etternavn">Etternavn</string>
+    <string name="telefonnr">Telefonnummer</string>
+    <string name="fødselsdato">Fødselsdato</string>
+    <string name="leggtilny">Legg til</string>
+    <string name="oppdater">Oppdater</string>
+    <string name="slett">Slett</string>
+    <string name="brsdag">Skriv en bursdagsmelding!</string>
+    <string name="brsdagmld">Bursdagstekst</string>
+    <string name="auto">Sende melding automatisk</string>
+    <string name="avpaa">On/off</string>
+    <string name="tidhjultxt">Velg tidspunkt</string>
+</resources>

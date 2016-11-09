@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Broadcastreciever">
+
+    <item
+        android:id="@+id/startliste"
+        app:showAsAction="always"
+        android:title="@string/leggtilny"
+        android:icon="@drawable/leggtil"/>
+    <item
+        android:id="@+id/pref"
+        app:showAsAction="always"
+        android:title="Preferanser"
+        android:icon="@drawable/gear_icon">
+    </item>
+
+    <item
+        android:id="@+id/avslutt"
+        app:showAsAction="always"
+        android:icon="@drawable/exit"
+        android:title="@string/exit" />
+</menu>

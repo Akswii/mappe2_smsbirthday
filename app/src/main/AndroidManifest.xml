@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aksel.s232324_mappe2">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/bursdags_ikon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver android:name=".SmsReceiver">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED">
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".Smservice">
+        </service>
+
+        <service android:name=".Smsperiodisk"></service>
+
+        <activity android:name=".Liste">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Databaseeditor"
+            android:parentActivityName=".Liste">
+        </activity>
+        <activity android:name=".Endreinformasjon"
+            android:parentActivityName=".Liste">
+        </activity>
+        <activity android:name=".Preferences"
+            android:parentActivityName=".Liste">
+        </activity>
+    </application>
+
+</manifest>

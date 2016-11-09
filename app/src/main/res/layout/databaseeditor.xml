@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/databaseeditor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/fornavn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fornavn"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/etternavn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etternavn"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/telefonnummer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefonnr"
+        android:textAlignment="center"/>
+    <DatePicker
+        android:id="@+id/bursdagsdato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/fødselsdato"
+        android:layout_gravity="center"
+        android:calendarViewShown="false"/>
+</LinearLayout>

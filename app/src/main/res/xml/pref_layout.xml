@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference android:title="@string/auto"
+        android:defaultValue="false"
+        android:key="checkbox_preference"
+        android:summary="@string/avpaa"
+        android:id="@+id/sjekkboks"/>
+    <EditTextPreference android:title="@string/brsdagmld"
+        android:key="edittext_preference"
+        android:summary="@string/brsdag">
+    </EditTextPreference>
+    <com.example.aksel.s232324_mappe2.PreferenceTidhjul
+        android:key="tidshjulpref"
+        android:title="@string/tidhjultxt"/>
+</PreferenceScreen>

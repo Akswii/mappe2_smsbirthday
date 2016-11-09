@@ -1,0 +1,2 @@
+# mappe2_smsbirthday
+Mappe3 fra aplikkasjonsutviklingkurset
